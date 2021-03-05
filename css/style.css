@@ -28,20 +28,20 @@ p {
 .h1-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 0.75fr 1fr;
-      grid-template-columns: 0.75fr 1fr;
+  -ms-grid-columns: 1fr 0.75fr;
+      grid-template-columns: 1fr 0.75fr;
   -webkit-column-gap: 2vw;
           column-gap: 2vw;
 }
 
 .h1-left {
-  -ms-grid-column-align: start;
-      justify-self: start;
+  -ms-grid-column-align: end;
+      justify-self: end;
 }
 
 .h1-right {
-  -ms-grid-column-align: end;
-      justify-self: end;
+  -ms-grid-column-align: start;
+      justify-self: start;
 }
 
 .h1-404 {
@@ -142,6 +142,7 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-bottom: 4vh;
 }
 
 .footer__p {
@@ -178,5 +179,80 @@ p {
   border-bottom: solid 2px var(--gray);
   background-color: var(--gray);
   color: #ffffff;
+}
+
+@media only screen and (max-width: 1024px) {
+  .h1-404 {
+    font-size: 5vh;
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+  }
+  .p-team {
+    font-size: 2vh;
+    margin-bottom: 4vh;
+  }
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .main-container {
+    margin: 0 auto;
+    display: -ms-grid;
+    display: grid;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-rows: (1fr)[3];
+        grid-template-rows: repeat(3, 1fr);
+    -webkit-column-gap: 13vw;
+            column-gap: 13vw;
+    row-gap: 2vh;
+  }
+  .person {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 1fr 0.2fr;
+        grid-template-rows: 1fr 0.2fr;
+    row-gap: 3vh;
+  }
+  .person__top {
+    position: relative;
+  }
+  .person__blob {
+    position: absolute;
+    width: 25vw;
+    z-index: -1;
+  }
+  .person__photo {
+    width: 25vw;
+  }
+  .person__bottom {
+    margin: 0 auto;
+  }
+  .person__bottom:hover {
+    -webkit-transform: translate(0, -1px);
+            transform: translate(0, -1px);
+  }
+  .person__bottom:active {
+    -webkit-transform: translate(0, 1px);
+            transform: translate(0, 1px);
+  }
+  .person__bottom-button:hover {
+    border-bottom: solid 3px var(--gray);
+  }
+  .person__bottom-button:active {
+    border-bottom: solid 1px var(--gray);
+  }
+  .person__bottom-button {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+    border: solid 1px var(--gray);
+    padding: 10px 20px;
+    border-radius: 6px;
+    border-bottom: solid 2px var(--gray);
+    background-color: #ffffff;
+  }
 }
 /*# sourceMappingURL=style.css.map */

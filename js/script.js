@@ -46,6 +46,9 @@ function person01() {
 	let randomNumber05 = Math.floor(Math.random() * personName.length);
 	let randomNumber06 = Math.floor(Math.random() * personName.length);
 
+	// for (i = 1; i <= 6){
+	// 	document.getElementById("personPhoto0"+i).src = "svg/" + personImg[randomNumber0+i];
+	// }
 	document.getElementById("personPhoto01").src = "svg/" + personImg[randomNumber01];
 	document.getElementById("personPhoto02").src = "svg/" + personImg[randomNumber02];
 	document.getElementById("personPhoto03").src = "svg/" + personImg[randomNumber03];
