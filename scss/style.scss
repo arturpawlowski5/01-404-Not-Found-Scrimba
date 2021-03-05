@@ -200,13 +200,13 @@ p {
 @media only screen and (max-width: 1024px) {
 	.h1-404 {
 		font-size: 5vh;
-		margin-top: 4vh;
+		margin-top: 2vh;
 		margin-bottom: 2vh;
 	}
 
 	.p-team {
 		font-size: 2vh;
-		margin-bottom: 4vh;
+		margin-bottom: 2vh;
 	}
 
 	.container {
@@ -271,6 +271,8 @@ p {
 	.footer {
 		&__p {
 			font-size: 2vh;
+			margin-top: 7vh;
+			margin-bottom: 4vh;
 		}
 
 		&__bottom {
