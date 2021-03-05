@@ -1,0 +1,167 @@
+@import "variables";
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Karla", sans-serif;
+	font-weight: 700;
+	// background-color: #fefddf;
+}
+
+a {
+	color: var(--gray);
+}
+
+h1,
+h2,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.h1-container {
+	display: grid;
+	grid-template-columns: 0.75fr 1fr;
+	column-gap: 2vw;
+}
+
+.h1-left {
+	justify-self: start;
+}
+
+.h1-right {
+	justify-self: end;
+}
+
+.h1-404 {
+	font-size: 120px;
+	text-align: center;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+}
+
+.p-team {
+	font-size: 19px;
+	text-align: center;
+	margin-bottom: 4vh;
+}
+
+.p-decide {
+	font-size: 14px;
+	text-align: center;
+	margin-bottom: 2vh;
+}
+
+.container {
+	max-width: 77vw;
+	margin: 0 auto;
+}
+
+.main-container {
+	margin: 0 auto;
+	max-width: 100%;
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	column-gap: 1vw;
+}
+
+.person {
+	display: grid;
+	grid-template-rows: 1fr 0.2fr;
+	row-gap: 5vh;
+
+	&__top {
+		position: relative;
+	}
+
+	&__blob {
+		position: absolute;
+
+		width: 12vw;
+		z-index: -1;
+	}
+
+	&__photo {
+		width: 12vw;
+	}
+
+	&__bottom {
+		margin: 0 auto;
+	}
+
+	&__bottom:hover {
+		transform: translate(0, -1px);
+	}
+
+	&__bottom:active {
+		transform: translate(0, 1px);
+	}
+
+	&__bottom-button:hover {
+		border-bottom: solid 3px var(--gray);
+	}
+
+	&__bottom-button:active {
+		border-bottom: solid 1px var(--gray);
+	}
+
+	&__bottom-button {
+		text-transform: uppercase;
+		text-decoration: none;
+		font-size: 19px;
+		border: solid 1px var(--gray);
+		padding: 16px 24px;
+		border-radius: 6px;
+		border-bottom: solid 2px var(--gray);
+		background-color: #ffffff;
+
+		// transition: all 100ms ease-in-out;
+	}
+}
+
+.footer {
+	&__container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__p {
+		font-size: 19px;
+		text-align: center;
+		margin-top: 50px;
+		margin-bottom: 25px;
+	}
+
+	&__button:hover {
+		border-bottom: solid 3px var(--gray);
+		transform: translate(0, -1px);
+		background-color: #ffffff;
+		color: var(--gray);
+	}
+
+	&__button:active {
+		border-bottom: solid 1px var(--gray);
+		transform: translate(0, 1px);
+		background-color: #ffffff;
+		color: var(--gray);
+	}
+
+	&__button {
+		margin: 0 auto;
+		text-transform: uppercase;
+		text-decoration: none;
+		font-size: 19px;
+		border: solid 1px var(--gray);
+		padding: 16px 24px;
+		border-radius: 6px;
+		border-bottom: solid 2px var(--gray);
+		background-color: var(--gray);
+		color: #ffffff;
+
+		// transition: all 100ms ease-in-out;
+	}
+}
