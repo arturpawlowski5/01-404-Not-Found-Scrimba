@@ -73,7 +73,7 @@ p {
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
 	column-gap: 1vw;
-	margin-bottom: 5vh;
+	margin-bottom: 3vh;
 }
 
 .person {
@@ -141,8 +141,8 @@ p {
 	&__p {
 		font-size: 3vh;
 		text-align: center;
-		margin-top: 5vh;
-		margin-bottom: 3vh;
+		margin-top: 3vh;
+		margin-bottom: 2vh;
 	}
 
 	&__bottom {
