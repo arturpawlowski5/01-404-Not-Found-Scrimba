@@ -39,193 +39,246 @@ let personName = ["sindre", "per", "frode", "leanne", "alex", "bob"];
 // PERSON 01
 
 function person01() {
-	// let randomNumber01 = Math.floor(Math.random() * personName.length);
-	let randomNumber02 = Math.floor(Math.random() * personName.length);
-	let randomNumber03 = Math.floor(Math.random() * personName.length);
-	let randomNumber04 = Math.floor(Math.random() * personName.length);
-	let randomNumber05 = Math.floor(Math.random() * personName.length);
-	let randomNumber06 = Math.floor(Math.random() * personName.length);
+	let finish = document.getElementById("win").innerText;
+	if (finish === "ERROR") {
+		console.log("ERRRROR");
 
-	// document.getElementById("personPhoto01").src = "svg/" + personImg[randomNumber01];
-	document.getElementById("personPhoto02").src = "svg/" + personImg[randomNumber02];
-	document.getElementById("personPhoto03").src = "svg/" + personImg[randomNumber03];
-	document.getElementById("personPhoto04").src = "svg/" + personImg[randomNumber04];
-	document.getElementById("personPhoto05").src = "svg/" + personImg[randomNumber05];
-	document.getElementById("personPhoto06").src = "svg/" + personImg[randomNumber06];
+		let randomNumber01 = Math.floor(Math.random() * personName.length);
+		let randomNumber02 = Math.floor(Math.random() * personName.length);
+		let randomNumber03 = Math.floor(Math.random() * personName.length);
+		let randomNumber04 = Math.floor(Math.random() * personName.length);
+		let randomNumber05 = Math.floor(Math.random() * personName.length);
+		let randomNumber06 = Math.floor(Math.random() * personName.length);
 
-	// document.getElementById("blob01").src = "svg/" + personBlob[randomNumber01];
-	document.getElementById("blob02").src = "svg/" + personBlob[randomNumber02];
-	document.getElementById("blob03").src = "svg/" + personBlob[randomNumber03];
-	document.getElementById("blob04").src = "svg/" + personBlob[randomNumber04];
-	document.getElementById("blob05").src = "svg/" + personBlob[randomNumber05];
-	document.getElementById("blob06").src = "svg/" + personBlob[randomNumber06];
+		document.getElementById("personPhoto01").src = "svg/sad/" + document.getElementById("name01").innerHTML + "-sad-" + randomNumber01 + ".svg";
+		document.getElementById("personPhoto02").src = "svg/" + personImg[randomNumber02];
+		document.getElementById("personPhoto03").src = "svg/" + personImg[randomNumber03];
+		document.getElementById("personPhoto04").src = "svg/" + personImg[randomNumber04];
+		document.getElementById("personPhoto05").src = "svg/" + personImg[randomNumber05];
+		document.getElementById("personPhoto06").src = "svg/" + personImg[randomNumber06];
 
-	// document.getElementById("name01").innerHTML = personName[randomNumber01];
-	document.getElementById("name02").innerHTML = personName[randomNumber02];
-	document.getElementById("name03").innerHTML = personName[randomNumber03];
-	document.getElementById("name04").innerHTML = personName[randomNumber04];
-	document.getElementById("name05").innerHTML = personName[randomNumber05];
-	document.getElementById("name06").innerHTML = personName[randomNumber06];
+		// document.getElementById("blob01").src = "svg/" + personBlob[randomNumber01];
+		document.getElementById("blob02").src = "svg/" + personBlob[randomNumber02];
+		document.getElementById("blob03").src = "svg/" + personBlob[randomNumber03];
+		document.getElementById("blob04").src = "svg/" + personBlob[randomNumber04];
+		document.getElementById("blob05").src = "svg/" + personBlob[randomNumber05];
+		document.getElementById("blob06").src = "svg/" + personBlob[randomNumber06];
+
+		// document.getElementById("name01").innerHTML = personName[randomNumber01];
+		document.getElementById("name02").innerHTML = personName[randomNumber02];
+		document.getElementById("name03").innerHTML = personName[randomNumber03];
+		document.getElementById("name04").innerHTML = personName[randomNumber04];
+		document.getElementById("name05").innerHTML = personName[randomNumber05];
+		document.getElementById("name06").innerHTML = personName[randomNumber06];
+	} else {
+		console.log("WINNNNN");
+		// return;
+	}
 }
 
 // PERSON 02
 
 function person02() {
-	let randomNumber01 = Math.floor(Math.random() * personName.length);
-	// let randomNumber02 = Math.floor(Math.random() * personName.length);
-	let randomNumber03 = Math.floor(Math.random() * personName.length);
-	let randomNumber04 = Math.floor(Math.random() * personName.length);
-	let randomNumber05 = Math.floor(Math.random() * personName.length);
-	let randomNumber06 = Math.floor(Math.random() * personName.length);
+	let finish = document.getElementById("win").innerText;
+	if (finish === "ERROR") {
+		console.log("ERRRROR");
 
-	document.getElementById("personPhoto01").src = "svg/" + personImg[randomNumber01];
-	// document.getElementById("personPhoto02").src = "svg/" + personImg[randomNumber02];
-	document.getElementById("personPhoto03").src = "svg/" + personImg[randomNumber03];
-	document.getElementById("personPhoto04").src = "svg/" + personImg[randomNumber04];
-	document.getElementById("personPhoto05").src = "svg/" + personImg[randomNumber05];
-	document.getElementById("personPhoto06").src = "svg/" + personImg[randomNumber06];
+		let randomNumber01 = Math.floor(Math.random() * personName.length);
+		// let randomNumber02 = Math.floor(Math.random() * personName.length);
+		let randomNumber03 = Math.floor(Math.random() * personName.length);
+		let randomNumber04 = Math.floor(Math.random() * personName.length);
+		let randomNumber05 = Math.floor(Math.random() * personName.length);
+		let randomNumber06 = Math.floor(Math.random() * personName.length);
 
-	document.getElementById("blob01").src = "svg/" + personBlob[randomNumber01];
-	// document.getElementById("blob02").src = "svg/" + personBlob[randomNumber02];
-	document.getElementById("blob03").src = "svg/" + personBlob[randomNumber03];
-	document.getElementById("blob04").src = "svg/" + personBlob[randomNumber04];
-	document.getElementById("blob05").src = "svg/" + personBlob[randomNumber05];
-	document.getElementById("blob06").src = "svg/" + personBlob[randomNumber06];
+		document.getElementById("personPhoto01").src = "svg/" + personImg[randomNumber01];
+		// document.getElementById("personPhoto02").src = "svg/" + personImg[randomNumber02];
+		document.getElementById("personPhoto02").src = "svg/sad/" + document.getElementById("name02").innerHTML + "-sad-" + randomNumber01 + ".svg";
+		document.getElementById("personPhoto03").src = "svg/" + personImg[randomNumber03];
+		document.getElementById("personPhoto04").src = "svg/" + personImg[randomNumber04];
+		document.getElementById("personPhoto05").src = "svg/" + personImg[randomNumber05];
+		document.getElementById("personPhoto06").src = "svg/" + personImg[randomNumber06];
 
-	document.getElementById("name01").innerHTML = personName[randomNumber01];
-	// document.getElementById("name02").innerHTML = personName[randomNumber02];
-	document.getElementById("name03").innerHTML = personName[randomNumber03];
-	document.getElementById("name04").innerHTML = personName[randomNumber04];
-	document.getElementById("name05").innerHTML = personName[randomNumber05];
-	document.getElementById("name06").innerHTML = personName[randomNumber06];
+		document.getElementById("blob01").src = "svg/" + personBlob[randomNumber01];
+		// document.getElementById("blob02").src = "svg/" + personBlob[randomNumber02];
+		document.getElementById("blob03").src = "svg/" + personBlob[randomNumber03];
+		document.getElementById("blob04").src = "svg/" + personBlob[randomNumber04];
+		document.getElementById("blob05").src = "svg/" + personBlob[randomNumber05];
+		document.getElementById("blob06").src = "svg/" + personBlob[randomNumber06];
+
+		document.getElementById("name01").innerHTML = personName[randomNumber01];
+		// document.getElementById("name02").innerHTML = personName[randomNumber02];
+		document.getElementById("name03").innerHTML = personName[randomNumber03];
+		document.getElementById("name04").innerHTML = personName[randomNumber04];
+		document.getElementById("name05").innerHTML = personName[randomNumber05];
+		document.getElementById("name06").innerHTML = personName[randomNumber06];
+	} else {
+		console.log("WINNNNN");
+		// return;
+	}
 }
 
 // PERSON 03
 
 function person03() {
-	let randomNumber01 = Math.floor(Math.random() * personName.length);
-	let randomNumber02 = Math.floor(Math.random() * personName.length);
-	// let randomNumber03 = Math.floor(Math.random() * personName.length);
-	let randomNumber04 = Math.floor(Math.random() * personName.length);
-	let randomNumber05 = Math.floor(Math.random() * personName.length);
-	let randomNumber06 = Math.floor(Math.random() * personName.length);
+	let finish = document.getElementById("win").innerText;
+	if (finish === "ERROR") {
+		console.log("ERRRROR");
 
-	document.getElementById("personPhoto01").src = "svg/" + personImg[randomNumber01];
-	document.getElementById("personPhoto02").src = "svg/" + personImg[randomNumber02];
-	// document.getElementById("personPhoto03").src = "svg/" + personImg[randomNumber03];
-	document.getElementById("personPhoto04").src = "svg/" + personImg[randomNumber04];
-	document.getElementById("personPhoto05").src = "svg/" + personImg[randomNumber05];
-	document.getElementById("personPhoto06").src = "svg/" + personImg[randomNumber06];
+		let randomNumber01 = Math.floor(Math.random() * personName.length);
+		let randomNumber02 = Math.floor(Math.random() * personName.length);
+		// let randomNumber03 = Math.floor(Math.random() * personName.length);
+		let randomNumber04 = Math.floor(Math.random() * personName.length);
+		let randomNumber05 = Math.floor(Math.random() * personName.length);
+		let randomNumber06 = Math.floor(Math.random() * personName.length);
 
-	document.getElementById("blob01").src = "svg/" + personBlob[randomNumber01];
-	document.getElementById("blob02").src = "svg/" + personBlob[randomNumber02];
-	// document.getElementById("blob03").src = "svg/" + personBlob[randomNumber03];
-	document.getElementById("blob04").src = "svg/" + personBlob[randomNumber04];
-	document.getElementById("blob05").src = "svg/" + personBlob[randomNumber05];
-	document.getElementById("blob06").src = "svg/" + personBlob[randomNumber06];
+		document.getElementById("personPhoto01").src = "svg/" + personImg[randomNumber01];
+		document.getElementById("personPhoto02").src = "svg/" + personImg[randomNumber02];
+		// document.getElementById("personPhoto03").src = "svg/" + personImg[randomNumber03];
+		document.getElementById("personPhoto03").src = "svg/sad/" + document.getElementById("name03").innerHTML + "-sad-" + randomNumber01 + ".svg";
+		document.getElementById("personPhoto04").src = "svg/" + personImg[randomNumber04];
+		document.getElementById("personPhoto05").src = "svg/" + personImg[randomNumber05];
+		document.getElementById("personPhoto06").src = "svg/" + personImg[randomNumber06];
 
-	document.getElementById("name01").innerHTML = personName[randomNumber01];
-	document.getElementById("name02").innerHTML = personName[randomNumber02];
-	// document.getElementById("name03").innerHTML = personName[randomNumber03];
-	document.getElementById("name04").innerHTML = personName[randomNumber04];
-	document.getElementById("name05").innerHTML = personName[randomNumber05];
-	document.getElementById("name06").innerHTML = personName[randomNumber06];
+		document.getElementById("blob01").src = "svg/" + personBlob[randomNumber01];
+		document.getElementById("blob02").src = "svg/" + personBlob[randomNumber02];
+		// document.getElementById("blob03").src = "svg/" + personBlob[randomNumber03];
+		document.getElementById("blob04").src = "svg/" + personBlob[randomNumber04];
+		document.getElementById("blob05").src = "svg/" + personBlob[randomNumber05];
+		document.getElementById("blob06").src = "svg/" + personBlob[randomNumber06];
+
+		document.getElementById("name01").innerHTML = personName[randomNumber01];
+		document.getElementById("name02").innerHTML = personName[randomNumber02];
+		// document.getElementById("name03").innerHTML = personName[randomNumber03];
+		document.getElementById("name04").innerHTML = personName[randomNumber04];
+		document.getElementById("name05").innerHTML = personName[randomNumber05];
+		document.getElementById("name06").innerHTML = personName[randomNumber06];
+	} else {
+		console.log("WINNNNN");
+		// return;
+	}
 }
 
 // PERSON 04
 
 function person04() {
-	let randomNumber01 = Math.floor(Math.random() * personName.length);
-	let randomNumber02 = Math.floor(Math.random() * personName.length);
-	let randomNumber03 = Math.floor(Math.random() * personName.length);
-	// let randomNumber04 = Math.floor(Math.random() * personName.length);
-	let randomNumber05 = Math.floor(Math.random() * personName.length);
-	let randomNumber06 = Math.floor(Math.random() * personName.length);
+	let finish = document.getElementById("win").innerText;
+	if (finish === "ERROR") {
+		console.log("ERRRROR");
 
-	document.getElementById("personPhoto01").src = "svg/" + personImg[randomNumber01];
-	document.getElementById("personPhoto02").src = "svg/" + personImg[randomNumber02];
-	document.getElementById("personPhoto03").src = "svg/" + personImg[randomNumber03];
-	// document.getElementById("personPhoto04").src = "svg/" + personImg[randomNumber04];
-	document.getElementById("personPhoto05").src = "svg/" + personImg[randomNumber05];
-	document.getElementById("personPhoto06").src = "svg/" + personImg[randomNumber06];
+		let randomNumber01 = Math.floor(Math.random() * personName.length);
+		let randomNumber02 = Math.floor(Math.random() * personName.length);
+		let randomNumber03 = Math.floor(Math.random() * personName.length);
+		// let randomNumber04 = Math.floor(Math.random() * personName.length);
+		let randomNumber05 = Math.floor(Math.random() * personName.length);
+		let randomNumber06 = Math.floor(Math.random() * personName.length);
 
-	document.getElementById("blob01").src = "svg/" + personBlob[randomNumber01];
-	document.getElementById("blob02").src = "svg/" + personBlob[randomNumber02];
-	document.getElementById("blob03").src = "svg/" + personBlob[randomNumber03];
-	// document.getElementById("blob04").src = "svg/" + personBlob[randomNumber04];
-	document.getElementById("blob05").src = "svg/" + personBlob[randomNumber05];
-	document.getElementById("blob06").src = "svg/" + personBlob[randomNumber06];
+		document.getElementById("personPhoto01").src = "svg/" + personImg[randomNumber01];
+		document.getElementById("personPhoto02").src = "svg/" + personImg[randomNumber02];
+		document.getElementById("personPhoto03").src = "svg/" + personImg[randomNumber03];
+		// document.getElementById("personPhoto04").src = "svg/" + personImg[randomNumber04];
+		document.getElementById("personPhoto04").src = "svg/sad/" + document.getElementById("name04").innerHTML + "-sad-" + randomNumber01 + ".svg";
+		document.getElementById("personPhoto05").src = "svg/" + personImg[randomNumber05];
+		document.getElementById("personPhoto06").src = "svg/" + personImg[randomNumber06];
 
-	document.getElementById("name01").innerHTML = personName[randomNumber01];
-	document.getElementById("name02").innerHTML = personName[randomNumber02];
-	document.getElementById("name03").innerHTML = personName[randomNumber03];
-	// document.getElementById("name04").innerHTML = personName[randomNumber04];
-	document.getElementById("name05").innerHTML = personName[randomNumber05];
-	document.getElementById("name06").innerHTML = personName[randomNumber06];
+		document.getElementById("blob01").src = "svg/" + personBlob[randomNumber01];
+		document.getElementById("blob02").src = "svg/" + personBlob[randomNumber02];
+		document.getElementById("blob03").src = "svg/" + personBlob[randomNumber03];
+		// document.getElementById("blob04").src = "svg/" + personBlob[randomNumber04];
+		document.getElementById("blob05").src = "svg/" + personBlob[randomNumber05];
+		document.getElementById("blob06").src = "svg/" + personBlob[randomNumber06];
+
+		document.getElementById("name01").innerHTML = personName[randomNumber01];
+		document.getElementById("name02").innerHTML = personName[randomNumber02];
+		document.getElementById("name03").innerHTML = personName[randomNumber03];
+		// document.getElementById("name04").innerHTML = personName[randomNumber04];
+		document.getElementById("name05").innerHTML = personName[randomNumber05];
+		document.getElementById("name06").innerHTML = personName[randomNumber06];
+	} else {
+		console.log("WINNNNN");
+		// return;
+	}
 }
 
 // PERSON 05
 
 function person05() {
-	let randomNumber01 = Math.floor(Math.random() * personName.length);
-	let randomNumber02 = Math.floor(Math.random() * personName.length);
-	let randomNumber03 = Math.floor(Math.random() * personName.length);
-	let randomNumber04 = Math.floor(Math.random() * personName.length);
-	// let randomNumber05 = Math.floor(Math.random() * personName.length);
-	let randomNumber06 = Math.floor(Math.random() * personName.length);
+	let finish = document.getElementById("win").innerText;
+	if (finish === "ERROR") {
+		console.log("ERRRROR");
 
-	document.getElementById("personPhoto01").src = "svg/" + personImg[randomNumber01];
-	document.getElementById("personPhoto02").src = "svg/" + personImg[randomNumber02];
-	document.getElementById("personPhoto03").src = "svg/" + personImg[randomNumber03];
-	document.getElementById("personPhoto04").src = "svg/" + personImg[randomNumber04];
-	// document.getElementById("personPhoto05").src = "svg/" + personImg[randomNumber05];
-	document.getElementById("personPhoto06").src = "svg/" + personImg[randomNumber06];
+		let randomNumber01 = Math.floor(Math.random() * personName.length);
+		let randomNumber02 = Math.floor(Math.random() * personName.length);
+		let randomNumber03 = Math.floor(Math.random() * personName.length);
+		let randomNumber04 = Math.floor(Math.random() * personName.length);
+		// let randomNumber05 = Math.floor(Math.random() * personName.length);
+		let randomNumber06 = Math.floor(Math.random() * personName.length);
 
-	document.getElementById("blob01").src = "svg/" + personBlob[randomNumber01];
-	document.getElementById("blob02").src = "svg/" + personBlob[randomNumber02];
-	document.getElementById("blob03").src = "svg/" + personBlob[randomNumber03];
-	document.getElementById("blob04").src = "svg/" + personBlob[randomNumber04];
-	// document.getElementById("blob05").src = "svg/" + personBlob[randomNumber05];
-	document.getElementById("blob06").src = "svg/" + personBlob[randomNumber06];
+		document.getElementById("personPhoto01").src = "svg/" + personImg[randomNumber01];
+		document.getElementById("personPhoto02").src = "svg/" + personImg[randomNumber02];
+		document.getElementById("personPhoto03").src = "svg/" + personImg[randomNumber03];
+		document.getElementById("personPhoto04").src = "svg/" + personImg[randomNumber04];
+		// document.getElementById("personPhoto05").src = "svg/" + personImg[randomNumber05];
+		document.getElementById("personPhoto05").src = "svg/sad/" + document.getElementById("name05").innerHTML + "-sad-" + randomNumber01 + ".svg";
+		document.getElementById("personPhoto06").src = "svg/" + personImg[randomNumber06];
 
-	document.getElementById("name01").innerHTML = personName[randomNumber01];
-	document.getElementById("name02").innerHTML = personName[randomNumber02];
-	document.getElementById("name03").innerHTML = personName[randomNumber03];
-	document.getElementById("name04").innerHTML = personName[randomNumber04];
-	// document.getElementById("name05").innerHTML = personName[randomNumber05];
-	document.getElementById("name06").innerHTML = personName[randomNumber06];
+		document.getElementById("blob01").src = "svg/" + personBlob[randomNumber01];
+		document.getElementById("blob02").src = "svg/" + personBlob[randomNumber02];
+		document.getElementById("blob03").src = "svg/" + personBlob[randomNumber03];
+		document.getElementById("blob04").src = "svg/" + personBlob[randomNumber04];
+		// document.getElementById("blob05").src = "svg/" + personBlob[randomNumber05];
+		document.getElementById("blob06").src = "svg/" + personBlob[randomNumber06];
+
+		document.getElementById("name01").innerHTML = personName[randomNumber01];
+		document.getElementById("name02").innerHTML = personName[randomNumber02];
+		document.getElementById("name03").innerHTML = personName[randomNumber03];
+		document.getElementById("name04").innerHTML = personName[randomNumber04];
+		// document.getElementById("name05").innerHTML = personName[randomNumber05];
+		document.getElementById("name06").innerHTML = personName[randomNumber06];
+	} else {
+		console.log("WINNNNN");
+		// return;
+	}
 }
 
 // PERSON 06
 
 function person06() {
-	let randomNumber01 = Math.floor(Math.random() * personName.length);
-	let randomNumber02 = Math.floor(Math.random() * personName.length);
-	let randomNumber03 = Math.floor(Math.random() * personName.length);
-	let randomNumber04 = Math.floor(Math.random() * personName.length);
-	let randomNumber05 = Math.floor(Math.random() * personName.length);
-	// let randomNumber06 = Math.floor(Math.random() * personName.length);
+	let finish = document.getElementById("win").innerText;
+	if (finish === "ERROR") {
+		console.log("ERRRROR");
 
-	document.getElementById("personPhoto01").src = "svg/" + personImg[randomNumber01];
-	document.getElementById("personPhoto02").src = "svg/" + personImg[randomNumber02];
-	document.getElementById("personPhoto03").src = "svg/" + personImg[randomNumber03];
-	document.getElementById("personPhoto04").src = "svg/" + personImg[randomNumber04];
-	document.getElementById("personPhoto05").src = "svg/" + personImg[randomNumber05];
-	// document.getElementById("personPhoto06").src = "svg/" + personImg[randomNumber06];
+		let randomNumber01 = Math.floor(Math.random() * personName.length);
+		let randomNumber02 = Math.floor(Math.random() * personName.length);
+		let randomNumber03 = Math.floor(Math.random() * personName.length);
+		let randomNumber04 = Math.floor(Math.random() * personName.length);
+		let randomNumber05 = Math.floor(Math.random() * personName.length);
+		// let randomNumber06 = Math.floor(Math.random() * personName.length);
 
-	document.getElementById("blob01").src = "svg/" + personBlob[randomNumber01];
-	document.getElementById("blob02").src = "svg/" + personBlob[randomNumber02];
-	document.getElementById("blob03").src = "svg/" + personBlob[randomNumber03];
-	document.getElementById("blob04").src = "svg/" + personBlob[randomNumber04];
-	document.getElementById("blob05").src = "svg/" + personBlob[randomNumber05];
-	// document.getElementById("blob06").src = "svg/" + personBlob[randomNumber06];
+		document.getElementById("personPhoto01").src = "svg/" + personImg[randomNumber01];
+		document.getElementById("personPhoto02").src = "svg/" + personImg[randomNumber02];
+		document.getElementById("personPhoto03").src = "svg/" + personImg[randomNumber03];
+		document.getElementById("personPhoto04").src = "svg/" + personImg[randomNumber04];
+		document.getElementById("personPhoto05").src = "svg/" + personImg[randomNumber05];
+		document.getElementById("personPhoto06").src = "svg/sad/" + document.getElementById("name06").innerHTML + "-sad-" + randomNumber01 + ".svg";
+		// document.getElementById("personPhoto06").src = "svg/" + personImg[randomNumber06];
 
-	document.getElementById("name01").innerHTML = personName[randomNumber01];
-	document.getElementById("name02").innerHTML = personName[randomNumber02];
-	document.getElementById("name03").innerHTML = personName[randomNumber03];
-	document.getElementById("name04").innerHTML = personName[randomNumber04];
-	document.getElementById("name05").innerHTML = personName[randomNumber05];
-	// document.getElementById("name06").innerHTML = personName[randomNumber06];
+		document.getElementById("blob01").src = "svg/" + personBlob[randomNumber01];
+		document.getElementById("blob02").src = "svg/" + personBlob[randomNumber02];
+		document.getElementById("blob03").src = "svg/" + personBlob[randomNumber03];
+		document.getElementById("blob04").src = "svg/" + personBlob[randomNumber04];
+		document.getElementById("blob05").src = "svg/" + personBlob[randomNumber05];
+		// document.getElementById("blob06").src = "svg/" + personBlob[randomNumber06];
+
+		document.getElementById("name01").innerHTML = personName[randomNumber01];
+		document.getElementById("name02").innerHTML = personName[randomNumber02];
+		document.getElementById("name03").innerHTML = personName[randomNumber03];
+		document.getElementById("name04").innerHTML = personName[randomNumber04];
+		document.getElementById("name05").innerHTML = personName[randomNumber05];
+		// document.getElementById("name06").innerHTML = personName[randomNumber06];
+	} else {
+		console.log("WINNNNN");
+		// return;
+	}
 }
 
 // COUNTER
@@ -313,6 +366,13 @@ function myCounter() {
 			document.getElementById("win").innerHTML = "SINDRE";
 			document.getElementById("win01").innerHTML = " - SINDRE";
 			document.getElementById("error01").innerHTML = "ERROR";
+
+			document.getElementById("personPhoto01").src = "svg/sad/" + document.getElementById("name01").innerHTML + "-sad-0.svg";
+			document.getElementById("personPhoto02").src = "svg/sad/" + document.getElementById("name02").innerHTML + "-sad-1.svg";
+			document.getElementById("personPhoto03").src = "svg/sad/" + document.getElementById("name03").innerHTML + "-sad-2.svg";
+			document.getElementById("personPhoto04").src = "svg/sad/" + document.getElementById("name04").innerHTML + "-sad-3.svg";
+			document.getElementById("personPhoto05").src = "svg/sad/" + document.getElementById("name05").innerHTML + "-sad-4.svg";
+			document.getElementById("personPhoto06").src = "svg/sad/" + document.getElementById("name06").innerHTML + "-sad-5.svg";
 		}
 
 		// PER
@@ -353,6 +413,13 @@ function myCounter() {
 			document.getElementById("win").innerHTML = "PER";
 			document.getElementById("win01").innerHTML = " - PER";
 			document.getElementById("error01").innerHTML = "ERROR";
+
+			document.getElementById("personPhoto01").src = "svg/sad/" + document.getElementById("name01").innerHTML + "-sad-0.svg";
+			document.getElementById("personPhoto02").src = "svg/sad/" + document.getElementById("name02").innerHTML + "-sad-1.svg";
+			document.getElementById("personPhoto03").src = "svg/sad/" + document.getElementById("name03").innerHTML + "-sad-2.svg";
+			document.getElementById("personPhoto04").src = "svg/sad/" + document.getElementById("name04").innerHTML + "-sad-3.svg";
+			document.getElementById("personPhoto05").src = "svg/sad/" + document.getElementById("name05").innerHTML + "-sad-4.svg";
+			document.getElementById("personPhoto06").src = "svg/sad/" + document.getElementById("name06").innerHTML + "-sad-5.svg";
 		}
 
 		// FRODE
@@ -393,6 +460,13 @@ function myCounter() {
 			document.getElementById("win").innerHTML = "FRODE";
 			document.getElementById("win01").innerHTML = " - FRODE";
 			document.getElementById("error01").innerHTML = "ERROR";
+
+			document.getElementById("personPhoto01").src = "svg/sad/" + document.getElementById("name01").innerHTML + "-sad-0.svg";
+			document.getElementById("personPhoto02").src = "svg/sad/" + document.getElementById("name02").innerHTML + "-sad-1.svg";
+			document.getElementById("personPhoto03").src = "svg/sad/" + document.getElementById("name03").innerHTML + "-sad-2.svg";
+			document.getElementById("personPhoto04").src = "svg/sad/" + document.getElementById("name04").innerHTML + "-sad-3.svg";
+			document.getElementById("personPhoto05").src = "svg/sad/" + document.getElementById("name05").innerHTML + "-sad-4.svg";
+			document.getElementById("personPhoto06").src = "svg/sad/" + document.getElementById("name06").innerHTML + "-sad-5.svg";
 		}
 
 		// LEANNE
@@ -433,6 +507,13 @@ function myCounter() {
 			document.getElementById("win").innerHTML = "LEANNE";
 			document.getElementById("win01").innerHTML = " - LEANNE";
 			document.getElementById("error01").innerHTML = "ERROR";
+
+			document.getElementById("personPhoto01").src = "svg/sad/" + document.getElementById("name01").innerHTML + "-sad-0.svg";
+			document.getElementById("personPhoto02").src = "svg/sad/" + document.getElementById("name02").innerHTML + "-sad-1.svg";
+			document.getElementById("personPhoto03").src = "svg/sad/" + document.getElementById("name03").innerHTML + "-sad-2.svg";
+			document.getElementById("personPhoto04").src = "svg/sad/" + document.getElementById("name04").innerHTML + "-sad-3.svg";
+			document.getElementById("personPhoto05").src = "svg/sad/" + document.getElementById("name05").innerHTML + "-sad-4.svg";
+			document.getElementById("personPhoto06").src = "svg/sad/" + document.getElementById("name06").innerHTML + "-sad-5.svg";
 		}
 
 		// ALEX
@@ -473,6 +554,13 @@ function myCounter() {
 			document.getElementById("win").innerHTML = "ALEX";
 			document.getElementById("win01").innerHTML = " - ALEX";
 			document.getElementById("error01").innerHTML = "ERROR";
+
+			document.getElementById("personPhoto01").src = "svg/sad/" + document.getElementById("name01").innerHTML + "-sad-0.svg";
+			document.getElementById("personPhoto02").src = "svg/sad/" + document.getElementById("name02").innerHTML + "-sad-1.svg";
+			document.getElementById("personPhoto03").src = "svg/sad/" + document.getElementById("name03").innerHTML + "-sad-2.svg";
+			document.getElementById("personPhoto04").src = "svg/sad/" + document.getElementById("name04").innerHTML + "-sad-3.svg";
+			document.getElementById("personPhoto05").src = "svg/sad/" + document.getElementById("name05").innerHTML + "-sad-4.svg";
+			document.getElementById("personPhoto06").src = "svg/sad/" + document.getElementById("name06").innerHTML + "-sad-5.svg";
 		}
 
 		// BOB
@@ -513,6 +601,13 @@ function myCounter() {
 			document.getElementById("win").innerHTML = "BOB";
 			document.getElementById("win01").innerHTML = " - BOB";
 			document.getElementById("error01").innerHTML = "ERROR";
+
+			document.getElementById("personPhoto01").src = "svg/sad/" + document.getElementById("name01").innerHTML + "-sad-0.svg";
+			document.getElementById("personPhoto02").src = "svg/sad/" + document.getElementById("name02").innerHTML + "-sad-1.svg";
+			document.getElementById("personPhoto03").src = "svg/sad/" + document.getElementById("name03").innerHTML + "-sad-2.svg";
+			document.getElementById("personPhoto04").src = "svg/sad/" + document.getElementById("name04").innerHTML + "-sad-3.svg";
+			document.getElementById("personPhoto05").src = "svg/sad/" + document.getElementById("name05").innerHTML + "-sad-4.svg";
+			document.getElementById("personPhoto06").src = "svg/sad/" + document.getElementById("name06").innerHTML + "-sad-5.svg";
 		}
 
 		document.getElementById("error").innerHTML = number += 1;
