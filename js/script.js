@@ -39,31 +39,28 @@ let personName = ["sindre", "per", "frode", "leanne", "alex", "bob"];
 // PERSON 01
 
 function person01() {
-	let randomNumber01 = Math.floor(Math.random() * personName.length);
+	// let randomNumber01 = Math.floor(Math.random() * personName.length);
 	let randomNumber02 = Math.floor(Math.random() * personName.length);
 	let randomNumber03 = Math.floor(Math.random() * personName.length);
 	let randomNumber04 = Math.floor(Math.random() * personName.length);
 	let randomNumber05 = Math.floor(Math.random() * personName.length);
 	let randomNumber06 = Math.floor(Math.random() * personName.length);
 
-	// for (i = 1; i <= 6){
-	// 	document.getElementById("personPhoto0"+i).src = "svg/" + personImg[randomNumber0+i];
-	// }
-	document.getElementById("personPhoto01").src = "svg/" + personImg[randomNumber01];
+	// document.getElementById("personPhoto01").src = "svg/" + personImg[randomNumber01];
 	document.getElementById("personPhoto02").src = "svg/" + personImg[randomNumber02];
 	document.getElementById("personPhoto03").src = "svg/" + personImg[randomNumber03];
 	document.getElementById("personPhoto04").src = "svg/" + personImg[randomNumber04];
 	document.getElementById("personPhoto05").src = "svg/" + personImg[randomNumber05];
 	document.getElementById("personPhoto06").src = "svg/" + personImg[randomNumber06];
 
-	document.getElementById("blob01").src = "svg/" + personBlob[randomNumber01];
+	// document.getElementById("blob01").src = "svg/" + personBlob[randomNumber01];
 	document.getElementById("blob02").src = "svg/" + personBlob[randomNumber02];
 	document.getElementById("blob03").src = "svg/" + personBlob[randomNumber03];
 	document.getElementById("blob04").src = "svg/" + personBlob[randomNumber04];
 	document.getElementById("blob05").src = "svg/" + personBlob[randomNumber05];
 	document.getElementById("blob06").src = "svg/" + personBlob[randomNumber06];
 
-	document.getElementById("name01").innerHTML = personName[randomNumber01];
+	// document.getElementById("name01").innerHTML = personName[randomNumber01];
 	document.getElementById("name02").innerHTML = personName[randomNumber02];
 	document.getElementById("name03").innerHTML = personName[randomNumber03];
 	document.getElementById("name04").innerHTML = personName[randomNumber04];
@@ -75,28 +72,28 @@ function person01() {
 
 function person02() {
 	let randomNumber01 = Math.floor(Math.random() * personName.length);
-	let randomNumber02 = Math.floor(Math.random() * personName.length);
+	// let randomNumber02 = Math.floor(Math.random() * personName.length);
 	let randomNumber03 = Math.floor(Math.random() * personName.length);
 	let randomNumber04 = Math.floor(Math.random() * personName.length);
 	let randomNumber05 = Math.floor(Math.random() * personName.length);
 	let randomNumber06 = Math.floor(Math.random() * personName.length);
 
 	document.getElementById("personPhoto01").src = "svg/" + personImg[randomNumber01];
-	document.getElementById("personPhoto02").src = "svg/" + personImg[randomNumber02];
+	// document.getElementById("personPhoto02").src = "svg/" + personImg[randomNumber02];
 	document.getElementById("personPhoto03").src = "svg/" + personImg[randomNumber03];
 	document.getElementById("personPhoto04").src = "svg/" + personImg[randomNumber04];
 	document.getElementById("personPhoto05").src = "svg/" + personImg[randomNumber05];
 	document.getElementById("personPhoto06").src = "svg/" + personImg[randomNumber06];
 
 	document.getElementById("blob01").src = "svg/" + personBlob[randomNumber01];
-	document.getElementById("blob02").src = "svg/" + personBlob[randomNumber02];
+	// document.getElementById("blob02").src = "svg/" + personBlob[randomNumber02];
 	document.getElementById("blob03").src = "svg/" + personBlob[randomNumber03];
 	document.getElementById("blob04").src = "svg/" + personBlob[randomNumber04];
 	document.getElementById("blob05").src = "svg/" + personBlob[randomNumber05];
 	document.getElementById("blob06").src = "svg/" + personBlob[randomNumber06];
 
 	document.getElementById("name01").innerHTML = personName[randomNumber01];
-	document.getElementById("name02").innerHTML = personName[randomNumber02];
+	// document.getElementById("name02").innerHTML = personName[randomNumber02];
 	document.getElementById("name03").innerHTML = personName[randomNumber03];
 	document.getElementById("name04").innerHTML = personName[randomNumber04];
 	document.getElementById("name05").innerHTML = personName[randomNumber05];
@@ -108,28 +105,28 @@ function person02() {
 function person03() {
 	let randomNumber01 = Math.floor(Math.random() * personName.length);
 	let randomNumber02 = Math.floor(Math.random() * personName.length);
-	let randomNumber03 = Math.floor(Math.random() * personName.length);
+	// let randomNumber03 = Math.floor(Math.random() * personName.length);
 	let randomNumber04 = Math.floor(Math.random() * personName.length);
 	let randomNumber05 = Math.floor(Math.random() * personName.length);
 	let randomNumber06 = Math.floor(Math.random() * personName.length);
 
 	document.getElementById("personPhoto01").src = "svg/" + personImg[randomNumber01];
 	document.getElementById("personPhoto02").src = "svg/" + personImg[randomNumber02];
-	document.getElementById("personPhoto03").src = "svg/" + personImg[randomNumber03];
+	// document.getElementById("personPhoto03").src = "svg/" + personImg[randomNumber03];
 	document.getElementById("personPhoto04").src = "svg/" + personImg[randomNumber04];
 	document.getElementById("personPhoto05").src = "svg/" + personImg[randomNumber05];
 	document.getElementById("personPhoto06").src = "svg/" + personImg[randomNumber06];
 
 	document.getElementById("blob01").src = "svg/" + personBlob[randomNumber01];
 	document.getElementById("blob02").src = "svg/" + personBlob[randomNumber02];
-	document.getElementById("blob03").src = "svg/" + personBlob[randomNumber03];
+	// document.getElementById("blob03").src = "svg/" + personBlob[randomNumber03];
 	document.getElementById("blob04").src = "svg/" + personBlob[randomNumber04];
 	document.getElementById("blob05").src = "svg/" + personBlob[randomNumber05];
 	document.getElementById("blob06").src = "svg/" + personBlob[randomNumber06];
 
 	document.getElementById("name01").innerHTML = personName[randomNumber01];
 	document.getElementById("name02").innerHTML = personName[randomNumber02];
-	document.getElementById("name03").innerHTML = personName[randomNumber03];
+	// document.getElementById("name03").innerHTML = personName[randomNumber03];
 	document.getElementById("name04").innerHTML = personName[randomNumber04];
 	document.getElementById("name05").innerHTML = personName[randomNumber05];
 	document.getElementById("name06").innerHTML = personName[randomNumber06];
@@ -141,28 +138,28 @@ function person04() {
 	let randomNumber01 = Math.floor(Math.random() * personName.length);
 	let randomNumber02 = Math.floor(Math.random() * personName.length);
 	let randomNumber03 = Math.floor(Math.random() * personName.length);
-	let randomNumber04 = Math.floor(Math.random() * personName.length);
+	// let randomNumber04 = Math.floor(Math.random() * personName.length);
 	let randomNumber05 = Math.floor(Math.random() * personName.length);
 	let randomNumber06 = Math.floor(Math.random() * personName.length);
 
 	document.getElementById("personPhoto01").src = "svg/" + personImg[randomNumber01];
 	document.getElementById("personPhoto02").src = "svg/" + personImg[randomNumber02];
 	document.getElementById("personPhoto03").src = "svg/" + personImg[randomNumber03];
-	document.getElementById("personPhoto04").src = "svg/" + personImg[randomNumber04];
+	// document.getElementById("personPhoto04").src = "svg/" + personImg[randomNumber04];
 	document.getElementById("personPhoto05").src = "svg/" + personImg[randomNumber05];
 	document.getElementById("personPhoto06").src = "svg/" + personImg[randomNumber06];
 
 	document.getElementById("blob01").src = "svg/" + personBlob[randomNumber01];
 	document.getElementById("blob02").src = "svg/" + personBlob[randomNumber02];
 	document.getElementById("blob03").src = "svg/" + personBlob[randomNumber03];
-	document.getElementById("blob04").src = "svg/" + personBlob[randomNumber04];
+	// document.getElementById("blob04").src = "svg/" + personBlob[randomNumber04];
 	document.getElementById("blob05").src = "svg/" + personBlob[randomNumber05];
 	document.getElementById("blob06").src = "svg/" + personBlob[randomNumber06];
 
 	document.getElementById("name01").innerHTML = personName[randomNumber01];
 	document.getElementById("name02").innerHTML = personName[randomNumber02];
 	document.getElementById("name03").innerHTML = personName[randomNumber03];
-	document.getElementById("name04").innerHTML = personName[randomNumber04];
+	// document.getElementById("name04").innerHTML = personName[randomNumber04];
 	document.getElementById("name05").innerHTML = personName[randomNumber05];
 	document.getElementById("name06").innerHTML = personName[randomNumber06];
 }
@@ -174,28 +171,28 @@ function person05() {
 	let randomNumber02 = Math.floor(Math.random() * personName.length);
 	let randomNumber03 = Math.floor(Math.random() * personName.length);
 	let randomNumber04 = Math.floor(Math.random() * personName.length);
-	let randomNumber05 = Math.floor(Math.random() * personName.length);
+	// let randomNumber05 = Math.floor(Math.random() * personName.length);
 	let randomNumber06 = Math.floor(Math.random() * personName.length);
 
 	document.getElementById("personPhoto01").src = "svg/" + personImg[randomNumber01];
 	document.getElementById("personPhoto02").src = "svg/" + personImg[randomNumber02];
 	document.getElementById("personPhoto03").src = "svg/" + personImg[randomNumber03];
 	document.getElementById("personPhoto04").src = "svg/" + personImg[randomNumber04];
-	document.getElementById("personPhoto05").src = "svg/" + personImg[randomNumber05];
+	// document.getElementById("personPhoto05").src = "svg/" + personImg[randomNumber05];
 	document.getElementById("personPhoto06").src = "svg/" + personImg[randomNumber06];
 
 	document.getElementById("blob01").src = "svg/" + personBlob[randomNumber01];
 	document.getElementById("blob02").src = "svg/" + personBlob[randomNumber02];
 	document.getElementById("blob03").src = "svg/" + personBlob[randomNumber03];
 	document.getElementById("blob04").src = "svg/" + personBlob[randomNumber04];
-	document.getElementById("blob05").src = "svg/" + personBlob[randomNumber05];
+	// document.getElementById("blob05").src = "svg/" + personBlob[randomNumber05];
 	document.getElementById("blob06").src = "svg/" + personBlob[randomNumber06];
 
 	document.getElementById("name01").innerHTML = personName[randomNumber01];
 	document.getElementById("name02").innerHTML = personName[randomNumber02];
 	document.getElementById("name03").innerHTML = personName[randomNumber03];
 	document.getElementById("name04").innerHTML = personName[randomNumber04];
-	document.getElementById("name05").innerHTML = personName[randomNumber05];
+	// document.getElementById("name05").innerHTML = personName[randomNumber05];
 	document.getElementById("name06").innerHTML = personName[randomNumber06];
 }
 
@@ -207,35 +204,35 @@ function person06() {
 	let randomNumber03 = Math.floor(Math.random() * personName.length);
 	let randomNumber04 = Math.floor(Math.random() * personName.length);
 	let randomNumber05 = Math.floor(Math.random() * personName.length);
-	let randomNumber06 = Math.floor(Math.random() * personName.length);
+	// let randomNumber06 = Math.floor(Math.random() * personName.length);
 
 	document.getElementById("personPhoto01").src = "svg/" + personImg[randomNumber01];
 	document.getElementById("personPhoto02").src = "svg/" + personImg[randomNumber02];
 	document.getElementById("personPhoto03").src = "svg/" + personImg[randomNumber03];
 	document.getElementById("personPhoto04").src = "svg/" + personImg[randomNumber04];
 	document.getElementById("personPhoto05").src = "svg/" + personImg[randomNumber05];
-	document.getElementById("personPhoto06").src = "svg/" + personImg[randomNumber06];
+	// document.getElementById("personPhoto06").src = "svg/" + personImg[randomNumber06];
 
 	document.getElementById("blob01").src = "svg/" + personBlob[randomNumber01];
 	document.getElementById("blob02").src = "svg/" + personBlob[randomNumber02];
 	document.getElementById("blob03").src = "svg/" + personBlob[randomNumber03];
 	document.getElementById("blob04").src = "svg/" + personBlob[randomNumber04];
 	document.getElementById("blob05").src = "svg/" + personBlob[randomNumber05];
-	document.getElementById("blob06").src = "svg/" + personBlob[randomNumber06];
+	// document.getElementById("blob06").src = "svg/" + personBlob[randomNumber06];
 
 	document.getElementById("name01").innerHTML = personName[randomNumber01];
 	document.getElementById("name02").innerHTML = personName[randomNumber02];
 	document.getElementById("name03").innerHTML = personName[randomNumber03];
 	document.getElementById("name04").innerHTML = personName[randomNumber04];
 	document.getElementById("name05").innerHTML = personName[randomNumber05];
-	document.getElementById("name06").innerHTML = personName[randomNumber06];
+	// document.getElementById("name06").innerHTML = personName[randomNumber06];
 }
 
 // COUNTER
 
 let number = 404;
 
-let color = ["#FFFDDF", "#CEEEDF", "#D5DBFF"];
+// let color = ["#FFFDDF", "#CEEEDF", "#D5DBFF"];
 
 function myCounter() {
 	let finish = document.getElementById("win").innerText;
@@ -309,11 +306,13 @@ function myCounter() {
 		// console.log(isEquivalentSindre(personName, a));
 
 		if (isEquivalentSindre(personName, a)) {
-			let randomNumber = Math.floor(Math.random() * color.length);
-			document.body.style.backgroundColor = color[randomNumber];
+			// let randomNumber = Math.floor(Math.random() * color.length);
+			// document.body.style.backgroundColor = color[randomNumber];
 
-			// document.body.style.backgroundColor = "#FFFDDF";
+			document.body.style.backgroundColor = "#DCAB94";
 			document.getElementById("win").innerHTML = "SINDRE";
+			document.getElementById("win01").innerHTML = " - SINDRE";
+			document.getElementById("error01").innerHTML = "ERROR";
 		}
 
 		// PER
@@ -347,11 +346,13 @@ function myCounter() {
 		// console.log(isEquivalentPer(personName, b));
 
 		if (isEquivalentPer(personName, b)) {
-			let randomNumber = Math.floor(Math.random() * color.length);
-			document.body.style.backgroundColor = color[randomNumber];
+			// let randomNumber = Math.floor(Math.random() * color.length);
+			// document.body.style.backgroundColor = color[randomNumber];
 
-			// document.body.style.backgroundColor = "#FFFDDF";
+			document.body.style.backgroundColor = "#8AC6B1";
 			document.getElementById("win").innerHTML = "PER";
+			document.getElementById("win01").innerHTML = " - PER";
+			document.getElementById("error01").innerHTML = "ERROR";
 		}
 
 		// FRODE
@@ -385,11 +386,13 @@ function myCounter() {
 		// console.log(isEquivalentFrode(personName, c));
 
 		if (isEquivalentFrode(personName, c)) {
-			let randomNumber = Math.floor(Math.random() * color.length);
-			document.body.style.backgroundColor = color[randomNumber];
+			// let randomNumber = Math.floor(Math.random() * color.length);
+			// document.body.style.backgroundColor = color[randomNumber];
 
-			// document.body.style.backgroundColor = "#CEEEDF";
+			document.body.style.backgroundColor = "#E4B474";
 			document.getElementById("win").innerHTML = "FRODE";
+			document.getElementById("win01").innerHTML = " - FRODE";
+			document.getElementById("error01").innerHTML = "ERROR";
 		}
 
 		// LEANNE
@@ -423,11 +426,13 @@ function myCounter() {
 		// console.log(isEquivalentLeanne(personName, d));
 
 		if (isEquivalentLeanne(personName, d)) {
-			let randomNumber = Math.floor(Math.random() * color.length);
-			document.body.style.backgroundColor = color[randomNumber];
+			// let randomNumber = Math.floor(Math.random() * color.length);
+			// document.body.style.backgroundColor = color[randomNumber];
 
-			// document.body.style.backgroundColor = "#CEEEDF";
+			document.body.style.backgroundColor = "#AE9FE6";
 			document.getElementById("win").innerHTML = "LEANNE";
+			document.getElementById("win01").innerHTML = " - LEANNE";
+			document.getElementById("error01").innerHTML = "ERROR";
 		}
 
 		// ALEX
@@ -461,11 +466,13 @@ function myCounter() {
 		// console.log(isEquivalentAlex(personName, e));
 
 		if (isEquivalentAlex(personName, e)) {
-			let randomNumber = Math.floor(Math.random() * color.length);
-			document.body.style.backgroundColor = color[randomNumber];
+			// let randomNumber = Math.floor(Math.random() * color.length);
+			// document.body.style.backgroundColor = color[randomNumber];
 
-			// document.body.style.backgroundColor = "#D5DBFF";
+			document.body.style.backgroundColor = "#92CCA5";
 			document.getElementById("win").innerHTML = "ALEX";
+			document.getElementById("win01").innerHTML = " - ALEX";
+			document.getElementById("error01").innerHTML = "ERROR";
 		}
 
 		// BOB
@@ -499,11 +506,13 @@ function myCounter() {
 		// console.log(isEquivalentBob(personName, f));
 
 		if (isEquivalentBob(personName, f)) {
-			let randomNumber = Math.floor(Math.random() * color.length);
-			document.body.style.backgroundColor = color[randomNumber];
+			// let randomNumber = Math.floor(Math.random() * color.length);
+			// document.body.style.backgroundColor = color[randomNumber];
 
-			// document.body.style.backgroundColor = "#D5DBFF";
+			document.body.style.backgroundColor = "#81C4E0";
 			document.getElementById("win").innerHTML = "BOB";
+			document.getElementById("win01").innerHTML = " - BOB";
+			document.getElementById("error01").innerHTML = "ERROR";
 		}
 
 		document.getElementById("error").innerHTML = number += 1;
